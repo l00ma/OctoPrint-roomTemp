@@ -1,0 +1,6 @@
+<p class="nav navbar-text" data-bind="html: roomTemp, visible: isRaspi"></p>
+<div data-bind="visible: roomTempModel.isOperational()" class="nav">
+    <!-- ko foreach: roomTempModel.tools -->
+    <p class="nav navbar-text" data-bind="template: { name: 'roomtemp-template' }"></p>
+    <!-- /ko -->
+</div>
