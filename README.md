@@ -6,6 +6,7 @@ For Raspberry Pi only: This plugin displays room temperature on navbar via a ds1
 ## Setup:
 
 1 - Connect your ds18b20 sensor to your Pi (see Howto below)
+
 2 - Install the roomTemp plugin using Plugin Manager
 
 ## Howto: Connecting your ds18b20 sensor
