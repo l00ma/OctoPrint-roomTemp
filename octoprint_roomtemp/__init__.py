@@ -32,7 +32,7 @@ class RoomTempPlugin(octoprint.plugin.StartupPlugin,
 			# Match a line like 'Hardware   : BCM2709'
 			match = re.search('^Hardware\s+:\s+(\w+)$', cpuinfo, flags=re.MULTILINE | re.IGNORECASE)
 
-			if match.group(1) == 'BCM2708' or match.group(1) == 'BCM2709':
+			if match.group(1) == 'BCM2708' or match.group(1) == 'BCM2709' or match.group(1) == 'BCM2835':
 				self.isRaspi = True
 			else:
 				self.isRaspi = False
