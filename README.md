@@ -31,6 +31,14 @@ This plugin displays room temperature on navbar via a ds18b20 sensor connected t
 
 		sudo reboot
 
+6.1 - If display doesn't work you may have to type the following commad in terminal:
+
+	sudo modprobe w1-gpio && sudo modprobe w1_therm
+	
+and then reboot again:
+
+	sudo reboot
+
 7 - Enjoy !!
 
 ![RoomTemp](RoomTemp.png?raw=true) 
