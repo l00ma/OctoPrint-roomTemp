@@ -115,12 +115,12 @@ class RoomTempPlugin(octoprint.plugin.StartupPlugin,
 
 				# version check: github repository
 				type="github_release",
-				user="looma",
+				user="l00ma",
 				repo="OctoPrint-roomTemp",
 				current=self._plugin_version,
 
 				# update method: pip w/ dependency links
-				pip="https://github.com/looma/OctoPrint-roomTemp/archive/{target_version}.zip"
+				pip="https://github.com/l00ma/OctoPrint-roomTemp/archive/{target_version}.zip"
 			)
 		)
 
