@@ -1,4 +1,5 @@
-# Plugin that displays room temperature on navbar
+# Display room temperature for 3D Printing
+## Plugin that displays room temperature on navbar
 Based on OctoPrint-NavbarTemp by imrahil (https://github.com/imrahil/OctoPrint-NavbarTemp)
 
 This plugin displays room temperature on navbar via a ds18b20 sensor connected to pin n°4 of your raspberry Pi
@@ -7,7 +8,7 @@ This plugin displays room temperature on navbar via a ds18b20 sensor connected t
 
 1 - Connect your ds18b20 sensor to your Pi (see Howto below)
 
-2 - Install the roomTemp plugin using Plugin Manager
+2 - Install the roomTemp plugin using **Octoprint Plugin Manager**
 
 ## Howto: Connecting your ds18b20 sensor
 
